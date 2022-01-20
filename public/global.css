@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Space+Mono&display=swap');
 html, body {
-	position: relative;
 	width: 100%;
 	height: 100%;
 }
@@ -28,8 +27,14 @@ code {
 .bg1 {
     font-size: 4vw;
 }
+.bg0 {
+    font-size: 8vw;
+}
 @media (max-width: 600px){
     .bg1{
-        font-size: 35px; 
+        font-size: 10vw; 
+    }
+    .bg0 {
+        font-size: 10vw; 
     }
 }

@@ -12,11 +12,6 @@
     float: left;  
     align-items: center;
 }
-.topbarright {
-    display: flex;
-    float: right;  
-    align-items: center;
-}
 .home{
     color: pink;
 } 
@@ -25,7 +20,14 @@
 }
 .blogs {
     color: tomato;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width: 600px){
+    .blogs {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
 }
 </style>
 
@@ -33,10 +35,9 @@
     <div class="topbarleft">
         <a href="/#/" class="bg1 home">Home</a>
         <a href="/#/blogs/" class="bg1 blogs">Blog</a>
-    </div>
-    <div class="topbarright">
         <a href="/#/about" class="bg1 about">About</a>
     </div>
 </div>
+<br>
 <br>
 <br>

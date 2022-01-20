@@ -1,6 +1,8 @@
 <script>
     // all the component goes to here
     import test from './pages/blogcontain/test.svelte';
+
+    import linux20220118 from './pages/blogcontain/linux20220118.svelte';
     import notfound from './pages/notfound.svelte';
 
 
@@ -16,6 +18,7 @@
         "/blogs": blogs,
         // blog post link
         "/b/test": test,
+        "/b/linux20220118" : linux20220118,
         // not found that use for error
         "/*": notfound,
     }
