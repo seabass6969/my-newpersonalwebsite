@@ -1,0 +1,30 @@
+<script>
+    // all the component goes to here
+    import test from './pages/blogcontain/test.svelte';
+    import notfound from './pages/notfound.svelte';
+
+
+    import blogs from './pages/blogs.svelte';
+    import about from './pages/about.svelte';
+    import home from './pages/home.svelte';
+    import Topbar from './component/topbar.svelte';
+    import Router from 'svelte-spa-router'
+    var routes = {
+        // general
+        "/": home,
+        "/about": about,
+        "/blogs": blogs,
+        // blog post link
+        "/b/test": test,
+        // not found that use for error
+        "/*": notfound,
+    }
+    // <Topbar/>
+    // <Markdown markdown={test}/>
+</script>
+
+<main>
+    <Topbar/> 
+    <Router {routes}/>
+</main>
+
