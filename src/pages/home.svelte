@@ -9,7 +9,6 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    display:inline;
 }
 </style>
 <div class="iam bg0">I am a guy</div>
