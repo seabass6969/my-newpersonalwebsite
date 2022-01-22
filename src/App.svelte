@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     // all the component goes to here
     import test from './pages/blogcontain/test.svelte';
 

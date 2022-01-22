@@ -20,22 +20,22 @@
 }
 .blogs {
     color: tomato;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 @media (max-width: 600px){
     .blogs {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     }
 }
 </style>
 
 <div class="wholetopbar">
     <div class="topbarleft">
-        <a href="/#/" class="bg1 home">Home</a>
-        <a href="/#/blogs/" class="bg1 blogs">Blog</a>
-        <a href="/#/about" class="bg1 about">About</a>
+        <a href="/#/" class="bg1 home hoveref">Home</a>
+        <a href="/#/blogs/" class="bg1 blogs hoveref">Blog</a>
+        <a href="/#/about" class="bg1 about hoveref">About</a>
     </div>
 </div>
 <br>

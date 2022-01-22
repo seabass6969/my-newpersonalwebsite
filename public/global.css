@@ -38,3 +38,9 @@ code {
         font-size: 10vw; 
     }
 }
+.hoveref:hover {
+animation: changing 500ms forwards ;
+}
+@keyframes changing{
+    to{box-shadow: 4px 4px;}
+}
