@@ -1,7 +1,4 @@
-<script lang="typescript">
-
-</script>
-<style >
+<style>
 .wholetopbar{
     float: flex;
     text-align: center;
@@ -20,13 +17,20 @@
 }
 .blogs {
     color: tomato;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.project {
+    color: aqua;
+    margin-left: 25px;
 }
 @media (max-width: 600px){
     .blogs {
     margin-left: 15px;
     margin-right: 15px;
+    }
+    .project {
+    margin-left: 15px;
     }
 }
 </style>
@@ -36,6 +40,8 @@
         <a href="/#/" class="bg1 home hoveref">Home</a>
         <a href="/#/blogs/" class="bg1 blogs hoveref">Blog</a>
         <a href="/#/about" class="bg1 about hoveref">About</a>
+        <a href="/#/projects" class="bg1 project hoveref">project</a>
+
     </div>
 </div>
 <br>

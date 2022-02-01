@@ -6,6 +6,7 @@
     import notfound from './pages/notfound.svelte';
 
 
+    import Projects from './pages/projects.svelte';
     import blogs from './pages/blogs.svelte';
     import about from './pages/about.svelte';
     import home from './pages/home.svelte';
@@ -16,6 +17,7 @@
         "/": home,
         "/about": about,
         "/blogs": blogs,
+        "/projects": Projects,
         // blog post link
         "/b/test": test,
         "/b/linux20220118" : linux20220118,
