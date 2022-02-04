@@ -32,7 +32,7 @@ code {
 }
 @media (max-width: 600px){
     .bg1{
-        font-size: 10vw; 
+        font-size: 6vw; 
     }
     .bg0 {
         font-size: 10vw; 
@@ -40,6 +40,9 @@ code {
 }
 .hoveref:hover {
 animation: changing 500ms forwards ;
+}
+a:-webkit-any-link {
+    color: gold;
 }
 @keyframes changing{
     to{box-shadow: 4px 4px;}
