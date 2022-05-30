@@ -11,4 +11,4 @@
     -webkit-background-clip: text;
 }
 </style>
-<div class="iam bg0">I am a guy</div>
+<div class="iam bg0">I am a guy(Oh yeah for those who are wondering, no blog post will gonner come soon) </div>
